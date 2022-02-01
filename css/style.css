@@ -1,0 +1,244 @@
+/**
+ * Table of Contents
+ * 1.0 - Fonts
+ * 2.0 - Reset css
+ * 3.0 - Preloader
+ * 4.0 - Home
+ * 5.0 - About us
+ * 6.0 - Contact
+ * 7.0 - Media Query
+ */
+
+/* ==========================================================================
+   1.0 Fonts
+   ========================================================================== */
+
+/*Roboto font*/
+@font-face {
+  font-family: "robotobold";
+  src: url("../fonts/roboto/roboto-bold-webfont.eot");
+  src: url("../fonts/roboto/roboto-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/roboto/roboto-bold-webfont.woff2") format("woff2"),
+    url("../fonts/roboto/roboto-bold-webfont.woff") format("woff"),
+    url("../fonts/roboto/roboto-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*open sans font*/
+@font-face {
+  font-family: "open_sansbold";
+  src: url("../fonts/open-sans/opensans-bold-webfont.eot");
+  src: url("../fonts/open-sans/opensans-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
+    url("../fonts/open-sans/opensans-bold-webfont.woff") format("woff"),
+    url("../fonts/open-sans/opensans-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "open_sansregular";
+  src: url("../fonts/open-sans/opensans-regular-webfont.eot");
+  src: url("../fonts/open-sans/opensans-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/open-sans/opensans-regular-webfont.woff") format("woff"),
+    url("../fonts/open-sans/opensans-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "open_sanslight";
+  src: url("../fonts/open-sans/opensans-light-webfont.eot");
+  src: url("../fonts/open-sans/opensans-light-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/open-sans/opensans-light-webfont.woff2") format("woff2"),
+    url("../fonts/open-sans/opensans-light-webfont.woff") format("woff"),
+    url("../fonts/open-sans/opensans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==========================================================================
+   2.0 Reset css
+   ========================================================================== */
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  font-family: "open_sansregular";
+  line-height: 20px;
+  background: #f9f9f9;
+  font-size: 13px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "robotobold";
+  margin: 0px;
+}
+
+p {
+  margin: 0;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footer {
+  background-color: #19425e;
+  color: #fff;
+  padding: 15%;
+}
+
+.logo-footer {
+  background-color: #fff;
+}
+
+.d-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tel-footer,
+.ubicacion-footer,
+.contacto-footer,
+.log-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.tel-footer p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.tel-footer span {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.ubicacion-footer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.ubicacion-footer span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.contacto-footer p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.whatsapp-caja {
+  margin-top: 10px;
+  background-color: #00c198;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.whatsapp-caja i {
+  font-size: 4rem;
+}
+
+.whatsapp-caja span {
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
+
+.contacto-footer span {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.enlaces {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.log-footer {
+  margin-top: 80px;
+}
+
+.log-footer img {
+  margin-bottom: 20px;
+}
+
+.enlaces a {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.enlaces a i {
+  border-radius: 100%;
+  padding: 8px;
+  background-color: #00c198;
+}
+
+/* ==========================================================================
+   3.0 Preloader
+   ========================================================================== */
+
+/* ==========================================================================
+   4.0 Home-content Styling
+   ========================================================================== */
+
+/* ==========================================================================
+   5.0 About us Styling
+   ========================================================================== */
+
+/* ==========================================================================
+   6.0 Contact Styling
+   ========================================================================== */
+
+/* ==========================================================================
+   7.0 Media query
+   ========================================================================== */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (min-width: 992px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
